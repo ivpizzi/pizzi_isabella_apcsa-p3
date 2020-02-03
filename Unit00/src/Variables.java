@@ -43,9 +43,20 @@ public class Variables
 		System.out.println("*16 bit - aShort = "+aShort+"\t\t*");
 		System.out.println("*32 bit - anInt = "+anInt+"\t\t*");
 		System.out.println("*64 bit - aLong = "+aLong+"\t*");
-		System.out.println("*          decimal types        *");
 		System.out.println("*                               *");
-		System.out.println("*8 bit - byteOne = "+aByte+"\t\t*");
+		System.out.println("*          real types           *");
+		System.out.println("*                               *");
+		System.out.println("*32 bit - aFloat = "+aFloat+"\t*");
+		System.out.println("*64 bit - aDouble = "+aDouble+"\t*");
+		System.out.println("*                               *");
+		System.out.println("*      other integer types      *");
+		System.out.println("*                               *");
+		System.out.println("*16 bit - aChar = "+aChar+"\t\t*");
+		System.out.println("*                               *");
+		System.out.println("*          other types          *");
+		System.out.println("*                               *");
+		System.out.println("*aBool = "+aBool+"\t\t\t*");
+		System.out.println("*aString = "+aString+"\t\t*");
 
 
 
