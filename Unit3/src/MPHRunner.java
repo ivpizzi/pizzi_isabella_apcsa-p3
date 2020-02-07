@@ -30,7 +30,34 @@ public class MPHRunner
 		test.print();
 		
 		//add more test cases
+		out.println();
+		out.print("Enter the distance :: ");
+		int dist2 = keyboard.nextInt();
+
+		out.print("Enter the hours :: ");
+		int hrs2 = keyboard.nextInt();
+
+		out.print("Enter the minutes :: ");
+		int mins2 = keyboard.nextInt();
+
+		MilesPerHour test2 = new MilesPerHour(dist2, hrs2, mins2);
+		test2.calcMPH();
+		test2.print();
 		
+		//third test case
+		out.println();
+		out.print("Enter the distance :: ");
+		int dist3 = keyboard.nextInt();
+
+		out.print("Enter the hours :: ");
+		int hrs3 = keyboard.nextInt();
+
+		out.print("Enter the minutes :: ");
+		int mins3 = keyboard.nextInt();
+
+		MilesPerHour test3 = new MilesPerHour(dist3, hrs3, mins3);
+		test3.calcMPH();
+		test3.print();
 		
 	}
 }
