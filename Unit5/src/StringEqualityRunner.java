@@ -10,9 +10,14 @@ import static java.lang.System.*;
 
 public class StringEqualityRunner
 {
+
 	public static void main( String args[] )
 	{
-		//add test cases
-		
+		StringEquality test = new StringEquality();
+
+		test.setWords("word", "word");
+		System.out.print(test.toString());
+		test.setWords("thisIsAString", "alsoAString");
+		System.out.print((test.toString()));
 	}
 }
